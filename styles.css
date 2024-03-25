@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/19167039-planetas-abstratos-em-um-fundo-de-formas-geometricas-wireframe-desenho-abstrato-do-futuro-ficcao-cientifica-e-astronomia-vetor.jpg");
+  background-size: cover;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 20px;
+}
+
+h1,
+p {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  background-image: linear-gradient(
+    to left top,
+    #99d5f9,
+    #8bcaff,
+    #89bcff,
+    #94adff,
+    #a89aff,
+    #ac8fff,
+    #b383ff,
+    #bb75fe,
+    #a974fe,
+    #9574fe,
+    #8073fd,
+    #6772fb
+  );
+  opacity: 0.9;
+  width: 60vw;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 1.5em 1.5em;
+  line-height: 1.5em;
+  border-radius: 20px;
+
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 0px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input,
+textarea {
+  background-color: #ffffff;
+  border: 1px solid #a393fe;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 1em;
+  font-size: 1.1rem;
+  background-color: #6772fb;
+  border: none;
+  border-radius: 50px;
+  min-width: 300px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #c342f1;
+}
+
+input[type="file"] {
+  padding-top: 5px;
+}
+
+.inline {
+  display: inline;
+}
+
+a {
+  color: #dfdfe2;
+  font-weight: bold;
+}
